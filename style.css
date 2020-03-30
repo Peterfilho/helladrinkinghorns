@@ -1,0 +1,60 @@
+.sidebar:before {
+	background: rgba(0,0,0,.5);
+}
+
+ul.main-menu::before{
+	height: 10px;
+	width: 200px;
+	background: rgba(0,0,0,.0) url("https://helladrinkinghorns.com/wp-content/uploads/2020/03/before-sidebar-1.png")
+}
+div.widgets::before{
+	height: 10px;
+	width: 200px;
+	background: rgba(0,0,0,.0) url("https://helladrinkinghorns.com/wp-content/uploads/2020/03/before-sidebar-1.png")
+}
+div.widget.widget_categories::before{
+	height: 10px;
+	width: 200px;
+	background: rgba(0,0,0,.0) url("https://helladrinkinghorns.com/wp-content/uploads/2020/03/before-sidebar-1.png")
+}
+div.widget.acx-fsmi-social-icons-desc::before{
+	height: 10px;
+	width: 200px;
+	background: rgba(0,0,0,.0) url("https://helladrinkinghorns.com/wp-content/uploads/2020/03/before-sidebar-1.png")
+}
+div.credits::before{
+	height: 10px;
+	width: 200px;
+	background: rgba(0,0,0,.0) url("https://helladrinkinghorns.com/wp-content/uploads/2020/03/before-sidebar-1.png")
+}
+
+div.widget-content ul{
+	font-size: 20px;
+	font-weight: bold; 
+	font-stretch: condensed;
+	font-family: Amarante, sans-serif;
+}
+div.widget-content ul li a{
+	color: #A4A4A4;
+}
+
+div.widget.widget_categories h3{
+	color: #A4A4A4;
+	font-size: 30px;
+	margin-left: 19px;
+	margin-bottom: 30px;
+}
+
+div.widget.acx-fsmi-social-icons-desc h3{
+	color: #A4A4A4;
+	font-size: 30px;
+	margin-left: 19px;
+	margin-bottom: 30px;
+	
+}
+div.sidebar{
+	background: rgba(0,0,0,.0);
+}
+button.nav-toggle.hidden{
+	top: 10%;
+}
