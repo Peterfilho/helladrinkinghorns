@@ -58,3 +58,33 @@ div.sidebar{
 button.nav-toggle.hidden{
 	top: 10%;
 }
+span.menu{
+	font-family: Amarante, sans-serif;
+	color: #eee;
+	font-size: 18px
+}
+div.bar{
+	background: #eee;
+}
+
+div.widget.wprev_widget::before{
+	height: 10px;
+	width: 200px;
+	background: rgba(0,0,0,.0) url("https://helladrinkinghorns.com/wp-content/uploads/2020/03/before-sidebar-1.png")
+}
+
+div.wprevpro_t1_DIV_2.wprev_preview_bg1_T1_widget::after{
+	border-top: 30px solid rgba(0,0,0,.5)
+}
+
+h3.widget-title{
+	text-align:center;
+	font-family: Amarante, sans-serif;
+	color: #eee;
+	font-size: 25px
+}
+
+div.wprevpro_t1_DIV_2.wprev_preview_bg1_T1_widget {
+    background: rgba(0,0,0,.5);
+}
+
